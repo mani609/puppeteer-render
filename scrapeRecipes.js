@@ -110,7 +110,9 @@ const scrapeRecipes = async (res) => {
   }
 
   // fetch each teaaser
-  for (let i = 0; i < teaserCount; i++) {
+//  for (let i = 0; i < teaserCount; i++) {
+    for (let i = 0; i < 3; i++) {
+
     console.log(`➡️ Öffne Teaser #${i + 1}`);
 
 
